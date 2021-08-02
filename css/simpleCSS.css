@@ -1,0 +1,39 @@
+body{
+	background: #607d8b2b;
+	font-family: "Times";
+	font-size: 150%;
+}
+nav, header, main, footer{
+	border: 2px dashed darkblue;
+	padding: 5px;
+}
+
+nav, footer{
+	background-color: lightgrey;
+}
+nav li{
+	display: inline-block;
+	text-decoration: none;
+	width: 25%;
+	padding: 20px 0;
+	margin: 15px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+h1, h2{
+	font-family: courier;
+}
+h2{
+	background: darkblue;
+	color: white;
+}
+
+table, td{
+	border: 1px solid black;
+	margin: 0;
+}
+
+footer a{
+	margin-left: 20%;
+}
